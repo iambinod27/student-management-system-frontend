@@ -1,4 +1,8 @@
 function openCity(evt, content) {
+  const mediaWidth = 791; //
+
+  const sideNav = document.getElementById("mySidenav");
+
   let i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {

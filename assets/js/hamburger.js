@@ -3,7 +3,7 @@ const sideNav = document.getElementById("mySidenav");
 const mediaWidth = 791; //
 
 function onOpen() {
-  sideNav.style.width = "250px";
+  sideNav.style.width = "100%";
   sideNav.style.display = "block";
 }
 

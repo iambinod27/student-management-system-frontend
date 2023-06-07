@@ -135,6 +135,10 @@ main {
     display: block;
   }
 
+  .tablinks {
+    font-size: 15px;
+  }
+
   .breadcrumb,
   .nav .nav-admin {
     font-size: 14px;
@@ -164,4 +168,53 @@ main {
   .nav .nav-admin {
     font-size: 12px;
   }
+
+  .tablinks {
+    font-size: 13px;
+  }
 }
+
+/* Classes */
+.table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  background: white;
+}
+
+.table .action-icon {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.table tbody tr td {
+  padding: 20px !important;
+  border-bottom: 1px solid #000 !important;
+}
+
+.pagination {
+  display: block;
+}
+
+.pagination a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.pagination a.active {
+  background-color: #f46036;
+  border-radius: 10px;
+  color: white;
+}
+
+.pagination-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 0;
+}
+
+/* End of Classes */
