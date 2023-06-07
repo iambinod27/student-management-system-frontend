@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: 0.2s;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -26,5 +27,5 @@ h6 {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
