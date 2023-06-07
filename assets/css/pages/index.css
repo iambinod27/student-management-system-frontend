@@ -102,11 +102,59 @@ main {
   text-transform: capitalize;
 }
 
+.tab .logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.tab .logo svg {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  margin: 10px;
+  fill: white;
+  display: none;
+  cursor: pointer;
+}
+
+.hamburger {
+  display: none;
+}
+
+.hamburger svg {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
 @media (max-width: 791px) {
+  main {
+    display: block;
+  }
+
   .breadcrumb,
-  .nav p,
   .nav .nav-admin {
     font-size: 14px;
+  }
+
+  .nav p {
+    display: none;
+  }
+
+  .tab .logo svg {
+    display: block;
+  }
+
+  .tab {
+    position: fixed;
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
   }
 }
 

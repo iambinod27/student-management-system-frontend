@@ -10,6 +10,9 @@ function openCity(evt, content) {
   }
   document.getElementById(content).style.display = "block";
   evt.currentTarget.className += " active";
+
+  document.getElementById("mySidenav").style.width = 0;
+  document.getElementById("mySidenav").style.display = "none";
 }
 
 document.getElementById("defaultOpen").click();
