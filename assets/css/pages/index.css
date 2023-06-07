@@ -135,6 +135,10 @@ main {
     display: block;
   }
 
+  .tablinks {
+    font-size: 15px;
+  }
+
   .breadcrumb,
   .nav .nav-admin {
     font-size: 14px;
@@ -163,5 +167,9 @@ main {
   .nav p,
   .nav .nav-admin {
     font-size: 12px;
+  }
+
+  .tablinks {
+    font-size: 13px;
   }
 }
