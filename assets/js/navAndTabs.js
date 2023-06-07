@@ -11,8 +11,12 @@ function openCity(evt, content) {
   document.getElementById(content).style.display = "block";
   evt.currentTarget.className += " active";
 
-  document.getElementById("mySidenav").style.width = 0;
-  document.getElementById("mySidenav").style.display = "none";
+  if (window.innerWidth <= mediaWidth) {
+    sideNav.style.display = "none";
+  } else {
+    sideNav.style.width = "100%";
+    sideNav.style.display = "block"; // Or any other desired display value
+  }
 }
 
 document.getElementById("defaultOpen").click();

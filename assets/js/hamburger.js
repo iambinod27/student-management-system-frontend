@@ -16,7 +16,6 @@ function handleVisibility() {
   if (window.innerWidth <= mediaWidth) {
     sideNav.style.display = "none";
   } else {
-    sideNav.style.width = "100%";
     sideNav.style.display = "block"; // Or any other desired display value
   }
 }
