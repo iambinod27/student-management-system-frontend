@@ -8,8 +8,45 @@
 
     <!-- Global CSS -->
     <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/pages/index.css" />
   </head>
   <body>
-    <h1>DASHBOARD</h1>
+    <main>
+      <div class="tab">
+        <button
+          class="tablinks"
+          onclick="openCity(event, 'dashboard')"
+          id="defaultOpen"
+        >
+          Dashboard
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'student')">
+          Students
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'classes')">
+          Classes
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'teachers')">
+          Teachers
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'attendance')">
+          Attendance
+        </button>
+      </div>
+
+      <div id="dashboard" class="tabcontent">Dashboard</div>
+
+      <div id="student" class="tabcontent">Students</div>
+
+      <div id="classes" class="tabcontent">Classes</div>
+
+      <div id="teachers" class="tabcontent">Teachers</div>
+
+      <div id="attendance" class="tabcontent">Attendance</div>
+    </main>
+    <a href="./pages/login.html">Login</a>
+
+    <!-- navAndTabs -->
+    <script src="./assets/js/navAndTabs.js"></script>
   </body>
 </html>
