@@ -236,6 +236,10 @@ main {
   text-align: center;
 }
 
+.responsive-table .activity-col {
+  flex-basis: 45%;
+}
+
 .responsive-table .action-icon {
   display: flex;
   justify-content: center;
@@ -247,6 +251,12 @@ main {
   width: 15px;
   height: 15px;
   object-fit: contain;
+}
+
+.activity-control {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .form-select {
@@ -378,6 +388,21 @@ main {
   text-transform: uppercase;
 }
 
+.attendance-button {
+  border: none;
+  background-color: #1e589f;
+  padding: 15px 25px;
+  color: #fff;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.attendance-date {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 /* End of Form */
 
 /* Chrome, Safari, Edge, Opera */
@@ -399,6 +424,10 @@ input[type="number"] {
   margin: 20px 0;
 }
 
+.headAdd h2 {
+  text-transform: uppercase;
+}
+
 .add-button {
   border: none;
   background: #3f9d1d;
@@ -407,6 +436,12 @@ input[type="number"] {
   color: #fff;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+.attendance-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
 }
 
 /* End of Teacher */
